@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+  }
+  .App{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(#e66465, #9198e5);
+    min-height: 50vh;
+  }
+.test{
+  width: 30px;
+  height: auto;
+}
+
+/*
+<div className="flex space-x-3 mt-5">
+<Button className="flex item-center px-4 py-2 rounded font-bold w-full text-red-600 border border-red-600">
+    <Image className="w-5 mr-4" src='https://raw.githubusercontent.com/tienluckyfor/ppe-training-fe/login-page/login-react-tailwind/src/assets/images/google-icon.png' />
+Google
+</Button>
+<Button className="flex item-center px-4 py-2 rounded font-bold w-full text-blue-600 border border-blue-600">
+    <Image className="w-7 mr-2" src='https://github.com/tienluckyfor/ppe-training-fe/blob/login-page/login-react-tailwind/src/assets/images/facebook-icon.png?raw=true' />
+Facebook
+</Button>      
+*/

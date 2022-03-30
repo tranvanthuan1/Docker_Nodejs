@@ -1,0 +1,27 @@
+version: "3"
+
+services:
+
+  server:
+    build: ./server
+    container_name: app_server
+    restart: always
+    expose:
+      - 5000
+
+  nginx:
+    build: ./nginx
+    container_name: app_nginx
+    restart: always
+    ports:
+      - "5000:5000"  
+  
+  client:
+    build: ./client   
+    container_name: app_client
+    expose:
+      - 8000
+    ports:
+      - "8000:8000"
+  
+  
